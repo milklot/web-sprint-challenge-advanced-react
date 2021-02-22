@@ -11,7 +11,7 @@ import "./App.css";
 function App() {
   // array of plants that have been added to the cart
   const [cart, setCart] = useState([]);
-
+  const initial = "initial";
   // add a plant to the cart
   const addToCart = (plant) => {
     setCart([...cart, plant]);
